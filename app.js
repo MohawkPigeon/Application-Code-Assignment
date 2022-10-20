@@ -115,3 +115,6 @@ app.post('/api/admission', (req, res) => {
 
 const port = process.env.port || 8080;
 app.listen(port, () => console.log(`Listening on port ${port}...`));
+
+
+//Overall the program still needs some validation and error handeling, but works in it's current state.
